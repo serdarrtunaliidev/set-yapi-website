@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FaHome, FaBed, FaBath, FaRuler } from 'react-icons/fa';
+import { FaBed, FaBath, FaRuler } from 'react-icons/fa';
 
 const Projects = () => {
   const projects = [
@@ -67,7 +67,7 @@ const Projects = () => {
   ];
 
   return (
-    <section id="projects" className="py-16 bg-gray-50">
+    <section id="projects" className="py-16 bg-white">
       <div className="container mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -76,7 +76,7 @@ const Projects = () => {
           viewport={{ once: true }}
           className="text-center mb-12"
         >
-          <h2 className="text-4xl font-bold text-gray-800 mb-4">Konut Projelerimiz</h2>
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">Konut Projelerimiz</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Modern tasarım ve kaliteli malzemelerle inşa ettiğimiz konut projelerimizi keşfedin.
           </p>
@@ -90,7 +90,7 @@ const Projects = () => {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: index * 0.1 }}
               viewport={{ once: true }}
-              className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow"
+              className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow border border-gray-200"
             >
               <div className="relative h-48 overflow-hidden">
                 <img 
@@ -98,13 +98,13 @@ const Projects = () => {
                   alt={project.title}
                   className="w-full h-full object-cover"
                 />
-                <div className="absolute top-4 left-4 bg-blue-600 text-white px-3 py-1 rounded-full text-sm font-semibold">
+                <div className="absolute top-4 left-4 bg-gray-900 text-white px-3 py-1 rounded-full text-sm font-semibold">
                   {project.type}
                 </div>
               </div>
               
               <div className="p-6">
-                <h3 className="text-xl font-semibold text-gray-800 mb-2">{project.title}</h3>
+                <h3 className="text-xl font-semibold text-gray-900 mb-2">{project.title}</h3>
                 <p className="text-gray-600 mb-4">{project.location}</p>
                 <p className="text-gray-600 mb-4">{project.description}</p>
                 

@@ -9,7 +9,7 @@ const Footer = () => {
           {/* Company Info */}
           <div className="lg:col-span-2">
             <div className="flex items-center mb-4">
-              <FaHome className="text-3xl text-blue-400 mr-3" />
+              <FaHome className="text-3xl text-gray-300 mr-3" />
               <h3 className="text-2xl font-bold">Sitee İnşaat</h3>
             </div>
             <p className="text-gray-300 mb-6 max-w-md">
@@ -49,15 +49,15 @@ const Footer = () => {
             <h4 className="text-lg font-semibold mb-4">İletişim</h4>
             <div className="space-y-3 text-gray-300">
               <div className="flex items-center">
-                <FaPhone className="text-blue-400 mr-3" />
+                <FaPhone className="text-gray-300 mr-3" />
                 <span>+90 212 555 0123</span>
               </div>
               <div className="flex items-center">
-                <FaEnvelope className="text-blue-400 mr-3" />
+                <FaEnvelope className="text-gray-300 mr-3" />
                 <span>info@sitee.com.tr</span>
               </div>
               <div className="flex items-center">
-                <FaMapMarkerAlt className="text-blue-400 mr-3" />
+                <FaMapMarkerAlt className="text-gray-300 mr-3" />
                 <span>İstanbul, Türkiye</span>
               </div>
             </div>
