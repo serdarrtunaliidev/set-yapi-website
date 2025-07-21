@@ -1,6 +1,6 @@
 # Sitee Construction Website
 
-A modern, responsive architecture and construction website built with React and Tailwind CSS, inspired by Tadu.com.tr. Features smooth animations, modern design, and comprehensive sections for showcasing construction services and projects.
+A modern, responsive architecture and construction website built with React and Tailwind CSS, inspired by Features smooth animations, modern design, and comprehensive sections for showcasing construction services and projects.
 
 ## 🚀 Features
 
